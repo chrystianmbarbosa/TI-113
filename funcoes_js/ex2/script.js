@@ -1,3 +1,8 @@
+/* Ex2: Crie uma função que lê uma lista de 4 notas, mostre-as junto com a média no alert, 
+considere que o usuário não pode informar letras, palavras ou vazio. 
+Alerte-o do erro e repita a leitura caso ocorra.
+ */
+
 function lerNotas() {
     const listaNotas = [];
     for (let i = 0; i < 4; i++) {
