@@ -10,6 +10,7 @@ function lerNotas() {
     }
     return listaNotas;
 }
+
 function calcularMedia(notas) {
     const quantidadeNotas = notas.length;
     let soma = 0;
@@ -19,6 +20,7 @@ function calcularMedia(notas) {
     let media = soma / quantidadeNotas;
     return media;
 }
+
 let lista = lerNotas();
 let resultado = calcularMedia(lista);
 alert(`Notas Informadas: ${lista.join(",")}
