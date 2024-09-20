@@ -39,13 +39,13 @@ function lerNomesIdadesSalarios() {
 
         empregados.push(empregado);
 
-        if (contador < 2)
+        if (contador < 5)
             continuar = true;
-        else if (contador >= 2 && contador < 100)
+        else if (contador >= 5 && contador < 100)
             continuar = confirm("Deseja continuar o cadastro?");
         else
             continuar = false;
-        
+
 
     } while (continuar === true);
 
